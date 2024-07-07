@@ -25,4 +25,12 @@ body {
   background-size: 50px;
   color: #fafafa;
   font-family: raleway-c;
+  overflow: hidden;
+}
+
+.hero {
+  width: calc(var(--index) * 36);
+  position: absolute;
+  left: 40vw;
+  top: 8vh;
 }
