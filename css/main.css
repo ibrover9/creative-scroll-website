@@ -42,6 +42,7 @@ body {
   position: absolute;
   left: 40vw;
   top: 8vh;
+  z-index: -1;
 }
 
 .main-header {
@@ -58,4 +59,15 @@ body {
   width: min-content;
   bottom: 12vh;
   line-height: 0.9;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
